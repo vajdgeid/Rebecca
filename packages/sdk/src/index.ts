@@ -16,3 +16,5 @@ export function version(): string {
 export function util_30(x: number): number { return x + 30; }
 
 export function util_31(x: number): number { return x + 31; }
+
+export function util_32(x: number): number { return x + 32; }
