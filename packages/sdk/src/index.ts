@@ -12,3 +12,5 @@ export interface BridgeTransfer {
 export function version(): string {
   return '0.1.0';
 }
+
+export function util_30(x: number): number { return x + 30; }
