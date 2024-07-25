@@ -9,3 +9,5 @@ export function handle_31(m: string): string { return m + '31'; }
 export function handle_32(m: string): string { return m + '32'; }
 
 export function handle_33(m: string): string { return m + '33'; }
+
+export function handle_34(m: string): string { return m + '34'; }
