@@ -19,3 +19,5 @@ export function handle_36(m: string): string { return m + '36'; }
 export function handle_37(m: string): string { return m + '37'; }
 
 export function handle_38(m: string): string { return m + '38'; }
+
+export function handle_39(m: string): string { return m + '39'; }
