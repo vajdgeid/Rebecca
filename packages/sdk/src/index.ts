@@ -36,3 +36,5 @@ export function util_39(x: number): number { return x + 39; }
 export function util_40(x: number): number { return x + 40; }
 
 export function util_41(x: number): number { return x + 41; }
+
+export function util_42(x: number): number { return x + 42; }
