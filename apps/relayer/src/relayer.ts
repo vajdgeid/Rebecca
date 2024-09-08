@@ -43,3 +43,5 @@ export function handle_48(m: string): string { return m + '48'; }
 export function handle_49(m: string): string { return m + '49'; }
 
 export function handle_50(m: string): string { return m + '50'; }
+
+export function handle_51(m: string): string { return m + '51'; }
