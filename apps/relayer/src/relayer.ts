@@ -61,3 +61,5 @@ export function handle_57(m: string): string { return m + '57'; }
 export function handle_58(m: string): string { return m + '58'; }
 
 export function handle_59(m: string): string { return m + '59'; }
+
+export function handle_60(m: string): string { return m + '60'; }

@@ -72,3 +72,5 @@ export function util_57(x: number): number { return x + 57; }
 export function util_58(x: number): number { return x + 58; }
 
 export function util_59(x: number): number { return x + 59; }
+
+export function util_60(x: number): number { return x + 60; }
