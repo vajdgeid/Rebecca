@@ -86,3 +86,5 @@ export function util_64(x: number): number { return x + 64; }
 export function util_65(x: number): number { return x + 65; }
 
 export function util_66(x: number): number { return x + 66; }
+
+export function util_67(x: number): number { return x + 67; }
