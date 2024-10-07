@@ -73,3 +73,5 @@ export function handle_63(m: string): string { return m + '63'; }
 export function handle_64(m: string): string { return m + '64'; }
 
 export function handle_65(m: string): string { return m + '65'; }
+
+export function handle_66(m: string): string { return m + '66'; }
