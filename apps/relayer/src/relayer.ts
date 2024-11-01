@@ -89,3 +89,5 @@ export function handle_71(m: string): string { return m + '71'; }
 export function handle_72(m: string): string { return m + '72'; }
 
 export function handle_73(m: string): string { return m + '73'; }
+
+export function handle_74(m: string): string { return m + '74'; }
