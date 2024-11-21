@@ -122,3 +122,5 @@ export function util_82(x: number): number { return x + 82; }
 export function util_83(x: number): number { return x + 83; }
 
 export function util_84(x: number): number { return x + 84; }
+
+export function util_85(x: number): number { return x + 85; }
