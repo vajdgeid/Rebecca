@@ -134,3 +134,5 @@ export function util_88(x: number): number { return x + 88; }
 export function util_89(x: number): number { return x + 89; }
 
 export function util_90(x: number): number { return x + 90; }
+
+export function util_91(x: number): number { return x + 91; }
