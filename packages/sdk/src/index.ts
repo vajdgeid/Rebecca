@@ -144,3 +144,5 @@ export function util_93(x: number): number { return x + 93; }
 export function util_94(x: number): number { return x + 94; }
 
 export function util_95(x: number): number { return x + 95; }
+
+export function util_96(x: number): number { return x + 96; }
