@@ -150,3 +150,5 @@ export function util_96(x: number): number { return x + 96; }
 export function util_97(x: number): number { return x + 97; }
 
 export function util_98(x: number): number { return x + 98; }
+
+export function util_99(x: number): number { return x + 99; }
