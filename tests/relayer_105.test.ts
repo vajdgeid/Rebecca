@@ -1,0 +1,2 @@
+import { relay } from '../apps/relayer/src/relayer';
+if (!relay('m105').startsWith('relayed:')) throw new Error('relay failed');
