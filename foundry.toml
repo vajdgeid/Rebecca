@@ -1,0 +1,13 @@
+[profile.default]
+src = 'contracts/bridge/src'
+out = 'contracts/bridge/out'
+libs = ['contracts/bridge/lib']
+optimizer = true
+optimizer_runs = 200
+solc_version = '0.8.20'
+
+default_rpc_url = 'http://localhost:8545'
+
+remappings = [
+  'forge-std/=contracts/bridge/lib/forge-std/src/'
+]
