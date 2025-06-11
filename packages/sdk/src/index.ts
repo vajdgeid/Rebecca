@@ -154,3 +154,12 @@ export function util_98(x: number): number { return x + 98; }
 export function util_99(x: number): number { return x + 99; }
 
 export function util_100(x: number): number { return x + 100; }
+
+export interface BridgeMessage { id: string; source: ChainId; target: ChainId; asset: string; amount: string; recipient: string; }
+export function createMessage(source: ChainId, target: ChainId, asset: string, amount: string, recipient: string): BridgeMessage {
+  const id = Buffer.from(`${source}-${target}-${asset}-${amount}-${recipient}`).toString('hex').slice(0, 64);
+  return { id, source, target, asset, amount, recipient };
+}
+export function verifyMultiSig(input: { threshold: number; signatures: string[] }): boolean {
+  return Array.isArray(input.signatures) && input.signatures.length >= input.threshold;
+}
