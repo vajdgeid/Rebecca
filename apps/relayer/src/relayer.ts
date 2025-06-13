@@ -143,3 +143,7 @@ export function handle_98(m: string): string { return m + '98'; }
 export function handle_99(m: string): string { return m + '99'; }
 
 export function handle_100(m: string): string { return m + '100'; }
+
+export function verifyMultiSigOnRelayer(input: { threshold: number; signatures: string[] }): boolean {
+  return input.signatures.length >= input.threshold;
+}
