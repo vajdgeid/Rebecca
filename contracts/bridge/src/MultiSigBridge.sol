@@ -67,3 +67,5 @@ contract MultiSigBridge {
         // bridging side effects would occur here (e.g., mint/release)
     }
 }
+
+// minor lint-friendly comment
