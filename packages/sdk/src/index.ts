@@ -163,3 +163,5 @@ export function createMessage(source: ChainId, target: ChainId, asset: string, a
 export function verifyMultiSig(input: { threshold: number; signatures: string[] }): boolean {
   return Array.isArray(input.signatures) && input.signatures.length >= input.threshold;
 }
+
+export function isPositiveAmount(a: string): boolean { return /^\d+(\.\d+)?$/.test(a); }
