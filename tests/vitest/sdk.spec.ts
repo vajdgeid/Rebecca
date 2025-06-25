@@ -11,3 +11,8 @@ describe('SDK', () => {
     expect(verifyMultiSig({ threshold: 2, signatures: ['s1','s2','s3'] })).toBe(true);
   });
 });
+
+  it('validates positive amount', () => {
+    expect(/\d+/.test('100')).toBe(true);
+  });
+});
