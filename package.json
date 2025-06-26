@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "vitest run",
+    "test": "vitest run --reporter=basic",
     "lint:sol": "solhint 'contracts/**/*.sol'"
   },
   "devDependencies": {
